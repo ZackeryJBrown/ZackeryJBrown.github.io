@@ -1,3 +1,6 @@
 [submodule "health_stat"]
 	path = health_stat
 	url = https://github.com/ZackeryJBrown/health_stat
+[submodule "healthstat"]
+	path = healthstat
+	url = https://github.com/ZackeryJBrown/health_stat
