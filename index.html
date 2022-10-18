@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<!--load a favicon icon here, errors occur if not loaded-->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+
+    <title>Zackery J Brown</title>
+	<meta charset="UTF-8">
+	<!--below is the mobile display scaling-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	
+    <!--font-->
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery.min.js"></script>
+
+</head>
+<body>
+
+    <div class="navbase">
+        
+            <h1 class="logo">ZjB Portfolio</h1>
+        
+        <nav class="navcontainer">
+            <ul>
+                <li id="home"><a href="index.html">Home</a></li>
+                <li id="resume"><a href="resume.html">Resume</a></li>
+                <li id="projects"><a href="healthstat/index.php">Healthstat</a></li>
+                <li id="contact"><a href="/capio/index.html">Capio Marketing</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="bodycontent">
+        <h1>Zackery J Brown</h1>
+        <h2>Web Design & Applications</h2>
+        <a>I like to design, create, and learn new things!</a>
+    </div>
+
+    <div class="bodycontent">
+        <h2 class="bold">About Me</h2><br>
+        <a class="bold">Education:</a><br>
+        <a>Cornell - JavaScript Programming Certification</a><br>
+        <a>University of Texas, Arlington - Bachelor of Business Administration- Management, 2007-2012</a><br>
+        <br>
+
+        <a class="bold">Skills:</a><br>
+        <a>HTML - CSS - Sass</a><br>
+        <a>Javascript - jQuery</a><br>
+        <a>React</a><br>
+        <a>Visual Studio Code</a><br>
+        <a>LAMP stack - Linux, Apache, MySQL, PHP</a><br>
+        <a>Git - Github</a><br>
+        <a>FTP</a><br>
+        <a>Joomla</a><br>
+        <a>MySQL - PostgreSQL - pgAdmin</a>
+        
+
+    </div>
+    
+  
+    <div class="bodycontent">
+    <h2>My Work</h2>
+    </div>
+
+    <!--TODO: add descriptions and screenshots instead of the favicons-->
+        <div class="rowcontainer">
+            <div class="columncontainer">
+                <a href="healthstat/index.php">
+                    <img class="works clickables" src="includes/healthstatscreen.webp" alt="Healthstat application link">
+                </a>
+                
+                <!--make some kind of container for tech icons and labels-->
+                <h3>Healthstat</h3>
+                <a>This page is an example of a frontend web app with a PHP server backend.</a>
+                <a>Technologies Used:</a>
+                
+                <div class="rowcontainer nomargin">
+                    
+                    <div class="techcontainer">
+                        <img src="includes/js50.webp" > <a>Javascript</a>
+                    </div>
+                    <div class="techcontainer">
+                        <img src="includes/sass50.webp" > <a>Sass</a>
+                    </div>
+                    <div class="techcontainer">
+                        <img src="includes/html50.webp" > <a>HTML</a>
+                    </div>
+                    <div class="techcontainer">
+                        <img src="includes/css50.webp" > <a>CSS</a>
+                    </div>
+                    <div class="techcontainer">
+                        <img src="includes/php50.webp" > <a>PHP</a>
+                    </div>
+                    <div class="techcontainer">
+                        <img src="includes/sql50.webp" > <a>SQL</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="columncontainer">
+                <a href="/capio/index.html">
+                <img class="works clickables" src="includes/capio.webp" alt=""> 
+                </a>
+                
+                <h3>Capio Marketing</h3>
+                <a>Technologies Used:</a>
+
+                <!--fix centering of technology names-->
+                <div class="rowcontainer nomargin">
+                    <div class="techcontainer">
+                        <img src="includes/newreact50.webp" > <a>React</a>
+                    </div>
+                    <div class="techcontainer">
+                        <img src="includes/js50.webp" > <a>Javascript</a>
+                    </div>
+                    <div class="techcontainer">
+                        <img src="includes/sass50.webp" > <a>Sass</a>
+                    </div>
+                    <div class="techcontainer">
+                        <img src="includes/html50.webp" > <a>HTML</a>
+                    </div>
+                    <div class="techcontainer">
+                        <img src="includes/css50.webp" > <a>CSS</a>
+                    </div>
+                </div>
+
+                <!--React, JS, HTML, CSS, SASS-->
+            </div>
+        </div>
+
+
+    <!--add a contact section-->
+
+    <div class="columncontainer">
+        <div class="bodycontent">
+            <h3>Contact Me</h3>
+            <a>Zackery J. Brown</a>
+            <br>
+            <a>Phone: (682)472-8129</a>
+            <br></br>
+        </div>
+
+        <form class="sidemargin" accept-charset=utf-8 action=# method="POST">
+            <label for="name">Your Name: </label>
+            <input class="bgfix" type="text" id="name" placeholder=""></input>
+            <br></br> 
+            <label for="email">Your Email: </label>
+            <input class="bgfix" type="text" id="email" placeholder=""></input> 
+            <br></br>
+            <label for="message">Your Message: </label>
+            <br></br>
+            <textarea class="bgfix" rows="10" cols="30" id="message" placeholder="Type your message here, and then click Send Email below."></textarea> 
+            <br></br>
+            <input class="clickables" type="submit" id="submitbutton" value="Send Email"></input> 
+        </form>
+        
+    </div>
+    <br>
+
+    <div class="bodycontent">
+        <!--end of page spacer-->
+    </div>
+
+
+
+
+</body>
+
+<script src="smtp.js"></script>
+<script src="index.js"></script>
+</html>
